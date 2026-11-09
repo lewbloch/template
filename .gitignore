@@ -45,17 +45,20 @@ build-*/
 
 # CMake generated files
 CMakeFiles/
+cmake-build-debug/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
 install_manifest.txt
 compile_commands.json
+CMakeLists.txt
 
 # Temporary files
 *.tmp
 *.log
 *.bak
 *.swp
+.$$$
+tmp/
 
 # vcpkg
 vcpkg_installed/
@@ -63,6 +66,13 @@ vcpkg_installed/
 # debug information files
 *.dwo
 
-# test output & cache
+# output, cache
 Testing/
 .cache/
+out/
+output/
+__pycache__
+
+# development
+.idea/
+main.cpp
